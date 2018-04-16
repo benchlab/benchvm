@@ -20,6 +20,8 @@ The total specification includes a `size byte` of `1`, a `value byte` of `1` and
 For a size parameter of length n
 `downsize := 32 - bytesLength - s`
 
+## Note
+This library is not for individual use. It is used within BenchChain Core and BenGo implementation.
 
 ## Roadmap
 - Mapping needs to be more recursive
