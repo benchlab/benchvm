@@ -1,0 +1,265 @@
+name = "BenchVM"
+author = "BlockStarters Lab"
+description = "BenchChain's Core Virtual Machine Engine For Smart Contracts."
+
+category("MATH"){
+
+    description = "Basic arithmetic operations."
+
+    spec("ADD", "01"){
+        description = "Addition"
+        validate = 2
+        oxygen = 10
+    }
+
+    spec("SUB", "02"){
+        description = "Subtraction"
+        validate = 2
+        oxygen = 10
+    }
+
+    spec("MUL", "03"){
+        description = "Multiplication"
+        validate = 2
+        oxygen = 10
+    }
+
+    spec("DIV", "04"){
+        description = "Multiplication"
+        validate = 2
+        oxygen = 10
+    }
+
+    spec("MOD", "05"){
+        validate = 2
+    }
+
+    spec("CONCAT", "0A"){
+        description = "Concatenates two byte arrays"
+        validate = 2
+    }
+}
+
+category("CRYPTOLIB"){
+
+    description = "Cryptographic "
+
+    spec("SHA3", "30"){
+
+    }
+}
+
+category("MATHCOMPARISON"){
+
+    description = "Comparison operations."
+
+    spec("LT"){
+
+    }
+
+    spec("GT"){
+
+    }
+
+    spec("SLT"){
+
+    }
+
+    spec("SGT"){
+
+    }
+
+    spec("EQ"){
+
+    }
+
+    spec("ISZERO"){
+
+    }
+}
+
+category("CHAINLOGIC"){
+
+    spec("AND"){
+
+    }
+
+    spec("OR"){
+
+    }
+
+    spec("XOR"){
+
+    }
+
+    spec("NOT"){
+
+    }
+
+}
+
+category("CONFIG"){
+
+    spec("ADDRESS"){
+
+    }
+
+    spec("BALANCE"){
+
+    }
+
+    spec("ORIGIN"){
+
+    }
+
+    spec("CALLER"){
+
+    }
+
+    spec("CALLVALUE"){
+
+    }
+
+    spec("CALLDATALOAD"){
+
+    }
+
+    spec("CALLDATASIZE"){
+
+    }
+
+    spec("CALLDATACOPY"){
+
+    }
+
+    spec("CODESIZE"){
+
+    }
+
+    spec("CODECOPY"){
+
+    }
+
+    spec("FUELCOST"){
+
+    }
+
+    spec("EXTCODESIZE"){
+
+    }
+
+    spec("EXTCODECOPY"){
+
+    }
+
+}
+
+category("CHAINBLOCK"){
+
+    description = "Operations which relate to the current block."
+
+    spec("BLOCKHASH"){
+
+    }
+
+    spec("COINBASE"){
+
+    }
+
+    spec("TIMESTAMP"){
+
+    }
+
+    spec("NUMBER"){
+
+    }
+
+    spec("DIFFICULTY"){
+
+    }
+
+    spec("OXYGENLIMIT"){
+
+    }
+
+}
+
+category("MACHINEFLOW"){
+
+    spec("BOUNCE", "70"){
+
+    }
+
+    spec("BOUNCEI", "71"){
+
+    }
+
+    spec("COMP", "72"){
+
+    }
+
+    spec("OXYGEN", "73"){
+
+    }
+
+    spec("BOUNCEDEST", "74"){
+
+    }
+
+    spec("STOP", "75"){
+
+    }
+
+    spec("RETURN", "76"){
+
+    }
+}
+
+category("MACHINEMEMORY"){
+    spec("GET", "40"){
+
+    }
+
+    spec("SET", "41"){
+
+    }
+
+    spec("STORE", "42"){
+
+    }
+
+    spec("LOAD", "43"){
+
+    }
+    spec("MSIZE", "44"){
+
+    }
+}
+
+category("MACHINE"){
+    spec("POP", "60"){
+
+    }
+    spec("PUSH", "61"){
+
+    }
+    spec("DUP", "62"){
+
+    }
+    spec("SWAP", "63"){
+
+    }
+}
+
+category("MACHINESTRUCTURES"){
+
+    description = "Creating structures."
+
+    spec("ARRAY", "A0"){
+
+    }
+
+    spec("MAP", "A1"){
+
+    }
+}
