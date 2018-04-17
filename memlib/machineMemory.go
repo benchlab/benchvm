@@ -3,7 +3,7 @@ package memlib
 type machineMemory struct {
 	capacity    int
 	store       []byte
-	lastGasCost uint64
+	lastOxygenCost uint64
 	lastReturn  []byte
 }
 
