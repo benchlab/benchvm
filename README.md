@@ -4,7 +4,7 @@ A distributed virtual machine layer within the BenchChain MultiChain. BenchVM, a
 
 We built BVM with both EOS and Ethereum's EVM in mind. We built BVM to follow the specifications and functionalities offered by both EOS and Ethereum's underlying smart contract protocols. Any EOS or Ethereum-based smart contracts can be deployed on any Bench Multichain.
 
-We also set out to minimize the bytecode size due to on-chain storage. All DAPPs on the Ethereum network in their smallest bvmstate are stored at 32 total bytes.
+We also set out to minimize the bytecode size due to on-chain storage. All DAPPs on the Ethereum network in their smallest EVMState are stored at 32 total bytes.
 
 As an example, a boolean within a EVM-based DAPP is stored on-chain as :
 `0x0000000000000001 or 0x0000000000000000`
