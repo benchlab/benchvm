@@ -1,3 +1,7 @@
+<p align="center">
+  <img src="https://github.com/benchlab/benchvm/raw/master/bvm-logo.png" width="300px" alt="BVM Logo"/>
+</p>
+
 # BenchVM
 
 A distributed virtual machine layer within the BenchChain MultiChain. BenchVM, also known as BVM is relied upon by the BenchChain for executing smart contracts and is built into BenchChain's Core Node and the GoLang implementation (BenGo)
