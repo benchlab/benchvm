@@ -20,10 +20,10 @@ func tGetStorage(t *testing.T) {
 func tCopyStorage(t *testing.T) {
 	s := newMachineStorage()
 	s.Set(bengo.HashString("hola"), bengo.HashString("one"))
-	bvmUtils.Assert(t, s.Size() == 1, "BVM Error - Original size incorrect.")
+	bvmUtils.Assert(t, s.Size() == 1, "BVM Error - Original size is incorrect..")
 	f := s.Copy()
-	bvmUtils.Assert(t, s.Size() == 1, "BVM Error - Original size incorrect.")
-	bvmUtils.Assert(t, f.Size() == 1, "BVM Error - Original copy size incorrect.")
+	bvmUtils.Assert(t, s.Size() == 1, "BVM Error - Original size is incorrect.")
+	bvmUtils.Assert(t, f.Size() == 1, "BVM Error - Original copy size is incorrect.")
 }
 
 func tStorageSize(t *testing.T) {
