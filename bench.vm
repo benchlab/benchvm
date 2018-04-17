@@ -44,7 +44,7 @@ category("CRYPTOLIB"){
 
     description = "Cryptographic "
 
-    spec("SHA3", "30"){
+    spec("S3", "30"){
 
     }
 }
@@ -140,7 +140,7 @@ category("CONFIG"){
 
     }
 
-    spec("FUELCOST"){
+    spec("OXYGENCOST"){
 
     }
 
